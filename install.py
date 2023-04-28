@@ -4,7 +4,7 @@ import sys
 
 import git
 
-from launch import run
+#from launch import run
 
 req_file = os.path.join(os.path.dirname(os.path.realpath(__file__)), "requirements.txt")
 
