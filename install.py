@@ -69,10 +69,10 @@ try:
 except:
     pass
 
-if not civitai_skip_install:
-    name = "Civitai Link"
-    run(f'"{sys.executable}" -m pip install -r "{req_file}"', f"Checking {name} requirements...",
-        f"Couldn't install {name} requirements.")
+#if not civitai_skip_install:
+#    name = "Civitai Link"
+#    run(f'"{sys.executable}" -m pip install -r "{req_file}"', f"Checking {name} requirements...",
+#        f"Couldn't install {name} requirements.")
 
 check_versions()
 print("")
